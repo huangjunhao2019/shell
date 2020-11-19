@@ -1,0 +1,8 @@
+#!/bin/sh
+# Mind that there is space between line 3
+if [ $1 = hi ]; then
+	echo 'The first argument was "hi" -- '
+else
+	echo -n 'The first argument was not "hi" --'
+	echo It was $1
+fi
